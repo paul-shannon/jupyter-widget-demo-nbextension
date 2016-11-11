@@ -3,7 +3,7 @@
 After learning some of the basics of jupyter widget programming &mdash; as described
 in this [repo](https://github.com/paul-shannon/jupyter-widget-demo-all-in-notebook) 
  &mdash; I next turned to, and present here, the same
-simple d3 widget, but here as a jupyter notebook extension rather than as an all-in-one
+simple d3 widget, but this time as a jupyter notebook extension rather than as an all-in-one
 jupyter notebook.  As an extension, this can be
 downloaded, built, installed, and used in any notebook, with all the implementing
 code hidden from view.
