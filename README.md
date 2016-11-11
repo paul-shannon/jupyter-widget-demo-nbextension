@@ -1,4 +1,4 @@
-# A Simply Jupyter Widget: interactive d3 circle drawing, an nbextension
+# A simple jupyter widget, presented as a notebook extension: interactive d3 circle drawing
 
 After learning some of the basics of jupyter widget programming, as described
 [here](https://github.com/paul-shannon/jupyter-widget-demo-all-in-notebook) -
