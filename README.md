@@ -1,5 +1,7 @@
 # A simple jupyter widget, presented as a notebook extension: interactive d3 circle drawing
 
+![alt tag](https://https://github.com/paul-shannon/jupyter-widget-demo-nbextension/edit/master/circles.png)
+
 After learning some of the basics of jupyter widget programming &mdash; as described
 in this [repo](https://github.com/paul-shannon/jupyter-widget-demo-all-in-notebook) 
  &mdash; I next turned to, and present here, the same
