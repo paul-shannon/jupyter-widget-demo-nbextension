@@ -25,7 +25,7 @@ miss a crucial detail.  I try to identify all the steps below.
 - setup.cfg
 - setup.py
 
-- circles/:
+- circles/
    * Circles.py
    * __init__.py
    * _version.py
