@@ -17,32 +17,42 @@ miss a crucial detail.  I try to identify all the steps below.
 
 ## Directories and Files
 
-- MANIFEST.in
-- README.md
-- RELEASE.md
-- circles.ipynb
-- makefile
-- setup.cfg
-- setup.py
-
-- circles/
-   * Circles.py
-   * __init__.py
-   * _version.py
-   * static/
-     + extension.js
-     + index.js
-     + index.js.map
-
-- js/
-   * node_modules/
-   * package.json
-   * webpack.config.js
-   * dist/
-      + index.js
-      + index.js.map
-   * src/
-      + Circles.js
-      + embed.js
-      + extension.js
-      + index.js
+<ul>
+  <li> MANIFEST.in
+  <li> README.md
+  <li> RELEASE.md
+  <li> circles.ipynb
+  <li> makefile
+  <li> setup.cfg
+  <li> setup.py
+  <li> circles
+      <ul>
+         <li> Circles.py
+         <li> __init__.py
+         <li> _version.py
+        <li> static
+          <ul>
+            <li> extension.js
+            <li> index.js
+           <li> index.js.map
+           </ul>
+     </ul>
+<li> js
+   <ul>
+     <li> node_modules
+     <li> package.json
+     <li> webpack.config.js
+     <li> dist
+       <ul>
+         <li> index.js
+         <li> index.js.map
+      </ul>
+   <li> src
+     <ul>
+       <li> Circles.js
+       <li> embed.js
+       <li> extension.js
+       <li> index.js
+      </ul>
+   </ul>
+  </ul>
