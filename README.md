@@ -15,3 +15,34 @@ Multiple software libraries and tools are explicilty involved: require, undersco
 webpack, npm.  There are multiple configuration files.  It is easy to
 miss a crucial detail.  I try to identify all the steps below.
 
+## Directories and Files
+
+- MANIFEST.in
+- README.md
+- RELEASE.md
+- circles.ipynb
+- makefile
+- setup.cfg
+- setup.py
+
+- circles/:
+   * Circles.py
+   * __init__.py
+   * _version.py
+   * static/
+     + extension.js
+     + index.js
+     + index.js.map
+
+- js/
+   * node_modules/
+   * package.json
+   * webpack.config.js
+   * dist/
+      + index.js
+      + index.js.map
+   * src/
+      + Circles.js
+      + embed.js
+      + extension.js
+      + index.js
