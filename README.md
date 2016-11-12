@@ -46,7 +46,7 @@ miss a crucial detail.  I try to identify all the steps below.
        <ul>
          <li> index.js
          <li> index.js.map
-         </ul>
+</ul>
    <li> src
      <ul>
        <li> Circles.js
