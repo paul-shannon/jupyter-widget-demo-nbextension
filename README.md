@@ -16,10 +16,10 @@ webpack, npm.  There are multiple configuration files.  It is easy to
 miss a crucial detail.  I try to identify all the steps below.
 
 ## Clone, Build, Install, Run
-<code>
+<code><pre>
 git clone https://github.com/paul-shannon/jupyter-widget-demo-nbextension.git
 make
-</code>
+</pre></code>
 
 
 ## Cookiecutter configuration
