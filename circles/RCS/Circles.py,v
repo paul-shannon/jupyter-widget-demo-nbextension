@@ -1,0 +1,51 @@
+head	1.2;
+access;
+symbols;
+locks
+	paul:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2016.11.10.21.17.30;	author paul;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2016.11.10.21.02.06;	author paul;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@added data slot "circleCount" and two traitlets: Int and list
+@
+text
+@import ipywidgets as widgets
+from traitlets import Unicode, Int, List
+
+class Circles(widgets.DOMWidget):
+    """"""
+    _view_name = Unicode('CircleView').tag(sync=True)
+    _model_name = Unicode('CircleModel').tag(sync=True)
+    _view_module = Unicode('circles-pkg').tag(sync=True)
+    _model_module = Unicode('circles-pkg').tag(sync=True)
+    value = Unicode('Circle World!').tag(sync=True)
+    circleCount = Int(0).tag(sync=True)@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d2 1
+a2 1
+from traitlets import Unicode
+d11 1
+@

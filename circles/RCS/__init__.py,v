@@ -1,0 +1,35 @@
+head	1.1;
+access;
+symbols;
+locks
+	paul:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2016.11.10.21.02.12;	author paul;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@from ._version import version_info, __version__
+
+from .Circles import *
+
+def _jupyter_nbextension_paths():
+    return [{
+        'section': 'notebook',
+        'src': 'static',
+        'dest': 'circles-pkg',
+        'require': 'circles-pkg/extension'
+    }]
+@
