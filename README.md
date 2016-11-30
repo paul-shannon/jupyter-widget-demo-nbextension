@@ -15,6 +15,13 @@ Multiple software libraries and tools are explicilty involved: require, undersco
 webpack, npm.  There are multiple configuration files.  It is easy to
 miss a crucial detail.  I try to identify all the steps below.
 
+## Clone, Build, Install, Run
+<code><pre>
+git clone https://github.com/paul-shannon/jupyter-widget-demo-nbextension.git
+make
+</pre></code>
+
+
 ## Cookiecutter configuration
 The complex and mostly undocumented structure of a nbextension directory is made up for, in part,
 by the provision of a cookiecutter template.  As it installs, it asks the following questions,
