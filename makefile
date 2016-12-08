@@ -1,7 +1,7 @@
 default:
 	(cd js; npm update)
 	(cd js; webpack --config webpack.config.js)
-	npm install
+	(cd js; npm install)
 	jupyter nbextension install --py circles
 	jupyter nbextension enable --py --sys-prefix circles
 	jupyter notebook circles.ipynb 

@@ -1,5 +1,7 @@
+
 import ipywidgets as widgets
 from traitlets import Unicode, Int, List
+@widgets.register('circles.Circles')
 
 class Circles(widgets.DOMWidget):
     """"""
