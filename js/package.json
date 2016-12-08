@@ -25,6 +25,20 @@
   "dependencies": {
     "d3": "^3.5.8",
     "jupyter-js-widgets": "^2.0.12",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "@jupyterlab/services": "^0.34.2",
+    "jupyter-widgets-schema": "^0.1.1",
+    "@types/backbone": "^1.3.33",
+    "@types/semver": "^5.3.30",
+    "ajv": "^4.9.0",
+    "backbone": "1.2.0",
+    "d3-format": "^0.5.1",
+    "font-awesome": "^4.5.0",
+    "jquery": "^3.1.1",
+    "jquery-ui": "^1.12.1",
+    "lolex": "^1.4.0",
+    "phosphor": "^0.7.0",
+    "scriptjs": "^2.5.8",
+    "semver": "^5.1.0"
   }
 }
